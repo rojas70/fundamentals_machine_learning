@@ -1,0 +1,13 @@
+cd C:\Users\jlrojassuarezdelreal\OneDrive - lipscomb.edu\school\teaching\eece395v_ai\lecs\live_code\06_reinforcement\reinforcement
+
+# Gridworld Manual Introduction (-m manual, -n noise -r living reward -d discount)
+python gridworld.py -m -n 0.2 -w 100 -d 1.0 -r -0.1
+==press arrow keys
+
+# Gridworld Optimal policy values
+python gridworld.py -n 0.2 -a value -i 100 -k 20 -d 1.0 -r -0.03
+==press any key
+
+***gridworld Optimal Policy Eval
+python gridworld.py -a value -i 100 -v 5 -d 0.9
+

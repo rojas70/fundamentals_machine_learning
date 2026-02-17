@@ -1,0 +1,34 @@
+{    // Gridworld Manual Introduction (-m manual, -n noise)
+    // python gridworld.py -m -n 0.2 -w 100 -d 1.0 -r -0.1
+    // ==press arrow keys
+    // -------------------------------------------------------
+    // Gridworld Optimal policy values
+    // python gridworld.py -n 0.2 -a value -i 100 -k 20 -d 1.0 -r -0.03
+    // ==press any key
+    // -------------------------------------------------------
+    // ***gridworld Optimal Policy Eval
+    // python gridworld.py -a value -i 100 -v 5 -d 0.9    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                // "-a", "q", // agent behavior 'random', 'value', 'q'
+                // "-d", "0.9",    // discount
+                // "-e", "0.3",    // epsilon
+                // "-k", "100",      // episodes
+                // "-l", "0.5",    // learning rate
+                // "-m", "True",   // manual
+                // "-n", "0.2",    // noise
+                // "-r", "-0.1",   // living reward
+                // "-t", "True",    // text
+                // "-w", "100",    // window size                                
+            ]
+        }
+    ]
+}
